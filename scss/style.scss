@@ -1,1 +1,18 @@
 @forward 'global';
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        flex-grow: 1;
+    }
+}
+
+.header,
+.footer {
+    height: 75px;
+    flex-grow: 0;
+}

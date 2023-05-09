@@ -5,7 +5,7 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  border: 3px solid red;
+  border: 1px solid red;
 }
 
 body {
@@ -20,4 +20,20 @@ p {
 
 a, a:visited, a:active {
   text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body div {
+  flex-grow: 1;
+}
+
+.header,
+.footer {
+  height: 75px;
+  flex-grow: 0;
 }/*# sourceMappingURL=style.css.map */
