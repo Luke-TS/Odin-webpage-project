@@ -6,13 +6,46 @@ body {
     display: flex;
     flex-direction: column;
 
+
     div {
+        display: flex;
         flex-grow: 1;
+        padding-right: 10%;
+        padding-left: 10%;
     }
 }
+
+$dark-background: #1F2937;
+$white-color-1: #F9FAF8;
+$white-color-2: #E5E7EB;
 
 .header,
 .footer {
     height: 75px;
     flex-grow: 0;
+    background-color: $dark-background;
+}
+
+.header {
+    padding-top: 15px;
+    justify-content: space-between;
+    align-items:flex-start;
+
+
+    .header__logo {
+        margin: 0;
+        color: $white-color-1;
+        font-size: 24px;
+    }
+
+    .header__links {
+        margin: 0;
+        display: flex;
+        list-style: none;
+        
+        a {
+            color: $white-color-2;
+            font-size: 18px;
+        }
+    }
 }
