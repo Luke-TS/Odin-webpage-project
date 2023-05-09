@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    width: 80vw;
+    padding:0% 10%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+div.sec-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.sec-1 div.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.sec-1 div.container {
+    display: flex;
+    justify-content: center;
+}
