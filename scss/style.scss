@@ -9,8 +9,7 @@ body {
 
     div {
         display: flex;
-        flex-grow: 1;
-        flex-shrink: 1;
+        flex: 1 1 auto;
         padding-right: 10%;
         padding-left: 10%;
     }
@@ -60,7 +59,6 @@ $blue-background: #3882F6;
 }
 
 .sec1 {
-    flex: 1 1 auto;
     background-color: $dark-background;
     align-items: center;
 
@@ -109,16 +107,41 @@ $blue-background: #3882F6;
 }
 
 .sec2 {
-    flex-direction: column;
-    .container {
-        .title {
+    background-color: white;
+    align-items: center;
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 900;
+            color: #1F2937;
         }
 
-        .lower_container {
+        .lower-container {
+            display: flex;
             padding: 0;
+            gap: 1rem;
+
             .sub-container {
+                display: flex;
                 flex-direction: column;
+                padding: 0;
+
+                .img {
+                    border: 3px solid $blue-background;
+                    border-radius: 5px;
+                    height: 100px;
+                }
+                .subtext {
+                    color: $dark-background;
+                    font-size: 14px;
+                    text-align: center;
+                }
             }
         }
     }
