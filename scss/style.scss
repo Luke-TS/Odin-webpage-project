@@ -19,6 +19,7 @@ body {
 $dark-background: #1F2937;
 $white-color-1: #F9FAF8;
 $white-color-2: #E5E7EB;
+$blue-background: #3882F6;
 
 .header,
 .footer {
@@ -60,15 +61,49 @@ $white-color-2: #E5E7EB;
 
 .sec1 {
     flex: 1 1 auto;
-    
+    background-color: $dark-background;
+    align-items: center;
 
-    .sec1__left {
+    .container {
         padding: 0;
-        flex-direction: column;
-        justify-content: center;
-    }
+        .sec1__left {
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            
+
+            .title {
+                color: $white-color-1;
+                font-weight: bolder;
+                font-size: 48px;
+                margin: 0;
+            }
+
+            .left-sec__subtext {
+                color: $white-color-2;
+                font-size: 18px;
+                margin: 0;
+            }
+
+            .left-sec__button {
+                display: flex;
+                width: 30%;
+                justify-content: center;
+                margin-top: 5px;
+                padding: 5px 0px;
+                border-radius: 5px;
+                background-color: $blue-background;
+                color: $white-color-1;
+                font-weight: 700;
+                font-size: 18px;
+            }
+        }
     
-    .sec1__placeholder {
-        
+        .sec1__img {
+            align-items: center;
+            color: $white-color-2;
+            background-color: gray;
+        }
     }
 }

@@ -79,9 +79,43 @@ body div {
 
 .sec1 {
   flex: 1 1 auto;
+  background-color: #1F2937;
+  align-items: center;
 }
-.sec1 .sec1__left {
+.sec1 .container {
+  padding: 0;
+}
+.sec1 .container .sec1__left {
   padding: 0;
   flex-direction: column;
   justify-content: center;
+  width: 50%;
+}
+.sec1 .container .sec1__left .title {
+  color: #F9FAF8;
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0;
+}
+.sec1 .container .sec1__left .left-sec__subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin: 0;
+}
+.sec1 .container .sec1__left .left-sec__button {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  font-size: 18px;
+}
+.sec1 .container .sec1__img {
+  align-items: center;
+  color: #E5E7EB;
+  background-color: gray;
 }/*# sourceMappingURL=style.css.map */
