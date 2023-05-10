@@ -118,4 +118,14 @@ body div {
   align-items: center;
   color: #E5E7EB;
   background-color: gray;
+}
+
+.sec2 {
+  flex-direction: column;
+}
+.sec2 .container .lower_container {
+  padding: 0;
+}
+.sec2 .container .lower_container .sub-container {
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

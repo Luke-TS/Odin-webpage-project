@@ -107,3 +107,19 @@ $blue-background: #3882F6;
         }
     }
 }
+
+.sec2 {
+    flex-direction: column;
+    .container {
+        .title {
+
+        }
+
+        .lower_container {
+            padding: 0;
+            .sub-container {
+                flex-direction: column;
+            }
+        }
+    }
+}
