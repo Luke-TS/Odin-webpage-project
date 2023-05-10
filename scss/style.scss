@@ -9,7 +9,7 @@ body {
 
     div {
         display: flex;
-        flex: 1 1 auto;
+        flex: 3 1 auto;
         padding-right: 10%;
         padding-left: 10%;
     }
@@ -109,6 +109,7 @@ $blue-background: #3882F6;
 .sec2 {
     background-color: white;
     align-items: center;
+    flex-grow: 1;
 
     .container {
         display: flex;
@@ -120,12 +121,14 @@ $blue-background: #3882F6;
             font-size: 36px;
             font-weight: 900;
             color: #1F2937;
+            margin-bottom: 2rem;
         }
 
         .lower-container {
             display: flex;
             padding: 0;
-            gap: 1rem;
+            gap: 2rem;
+            padding-bottom: 15px;
 
             .sub-container {
                 display: flex;
@@ -143,6 +146,31 @@ $blue-background: #3882F6;
                     text-align: center;
                 }
             }
+        }
+    }
+}
+
+.sec3 {
+    align-items: center;
+    background-color: #E5E7EB;
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+
+        .quote {
+            font-size: 36px;
+            font-style: italic;
+            color: #1F2937;
+            font-weight: 300;
+            margin: 0;
+            margin-bottom: -12px;
+        }
+
+        .speaker {
+            margin: 0;
+            text-align: end;
+            padding-right: 15px;
         }
     }
 }
