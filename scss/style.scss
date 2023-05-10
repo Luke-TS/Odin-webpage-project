@@ -10,6 +10,7 @@ body {
     div {
         display: flex;
         flex-grow: 1;
+        flex-shrink: 1;
         padding-right: 10%;
         padding-left: 10%;
     }
@@ -29,7 +30,7 @@ $white-color-2: #E5E7EB;
 .header {
     padding-top: 15px;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
 
 
     .header__logo {
@@ -42,10 +43,32 @@ $white-color-2: #E5E7EB;
         margin: 0;
         display: flex;
         list-style: none;
-        
+        gap: 5px;
         a {
             color: $white-color-2;
             font-size: 18px;
         }
+    }
+}
+
+.footer {
+    color: $white-color-2;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 {
+    flex: 1 1 auto;
+    
+
+    .sec1__left {
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .sec1__placeholder {
+        
     }
 }
