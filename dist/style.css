@@ -5,7 +5,6 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  border: 1px solid red;
 }
 
 body {
@@ -62,7 +61,7 @@ body div {
   margin: 0;
   display: flex;
   list-style: none;
-  gap: 5px;
+  gap: 3rem;
 }
 .header .header__links a {
   color: #E5E7EB;
