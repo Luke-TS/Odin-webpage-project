@@ -10,8 +10,8 @@ body {
     div {
         display: flex;
         flex: 3 1 auto;
-        padding-right: 10%;
-        padding-left: 10%;
+        padding-right: 15%;
+        padding-left: 15%;
     }
 }
 
@@ -171,6 +171,39 @@ $blue-background: #3882F6;
             margin: 0;
             text-align: end;
             padding-right: 15px;
+        }
+    }
+}
+
+.sec4 {
+    align-items: center;
+
+    .container {
+        align-items: center;
+        padding: 30px 60px;
+        border-radius: 8px;
+        background-color: $blue-background;
+
+        .sub-container {
+            flex-direction: column;
+            padding: 0;
+            .CTA {
+                margin: 0;
+                color: $white-color-1;
+            }
+            .subtext {
+                padding: 0;
+                color: $white-color-2;
+            }
+        }
+
+        button {
+            padding: 10px 30px;
+            background-color: $blue-background;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: $white-color-1;
+            font-weight: 700;
         }
     }
 }
